@@ -21,7 +21,7 @@ reg_date TIMESTAMP
 )";
 
 if ($conexion->query($sql) === TRUE) {
-    echo "La tabla MyGuests a sido creada exitosamente";
+    echo "La tabla mexico a sido creada exitosamente";
 } else {
     echo "Error al crear la tabla: " . $conexion->error;
 }
